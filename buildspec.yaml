@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  build:
+    commands: 
+      - aws cloudformation package --template-file apigateway_lambda_integration.json --s3-bucket hellWorldfunction04252024 --output-template helloWorld.yaml --s3-bucket hellworldfunction04252024
+artifacts:
+  files:
+    - apigateway_lambda_integration.json
+    - helloWorld.yaml
