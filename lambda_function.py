@@ -1,6 +1,6 @@
 import json
 days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-times = ['morning', 'afternoon', 'evening', 'night', 'day']
+times = ['morning', 'afternoon', 'evening', 'night', 'day','noon']
 
 def lambda_handler(event, context):
  name = event.get(name, "you")
