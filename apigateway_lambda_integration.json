@@ -156,9 +156,8 @@
     "LambdaFunction": {
       "Type": "AWS::Lambda::Function",
       "Properties": {
+        "Code": "lambda_function.py",
         "Handler": "lambda_handler",
-        "Code": "lambda_function.py"
-        },
         "FunctionName": {
           "Ref": "LambdaFunctionName"
         },
@@ -258,3 +257,4 @@
       }
     }
   }
+}
