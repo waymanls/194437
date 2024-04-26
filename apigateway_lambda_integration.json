@@ -158,7 +158,7 @@
       "Properties": {
         "Code": "lambda_function.py"
         },
-        "Handler": "lambda_function.lambda_handler",
+        "Handler": "lambda_handler",
         "FunctionName": {
           "Ref": "LambdaFunctionName"
         },
