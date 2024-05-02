@@ -15,7 +15,7 @@ def lambda_handler(event, context):
      day = event['day']
  except ValueError:
    day = None
- greetings = "Good {time}, {name} of {city}." .format(time=time, name=name, city=city)
+ greetings = "Good {time}, {name} of {city}! .format(time=time, name=name, city=city)
  if day:
    greetings += "Happy {}".format(day)
  return {
